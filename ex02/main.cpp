@@ -1,9 +1,9 @@
-#include "FlagTrap.hpp"
+#include "FragTrap.hpp"
 
 int main()
 {
 	const std::string name = "El manuel";
-	FlagTrap one(name);
+	FragTrap one(name);
 
 	one.attack("Francesco");
 

@@ -6,7 +6,7 @@
 /*   By: sdarius- <sdarius-@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/14 12:27:22 by sdarius-          #+#    #+#             */
-/*   Updated: 2026/11/14 12:34:32 by sdarius-         ###   ########.fr       */
+/*   Updated: 2026/11/14 12:39:40 by sdarius-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,13 @@
 #include "ClapTrap.hpp"
 
 
-class FlagTrap : public ClapTrap
+class FragTrap : public ClapTrap
 {
 public:
-	FlagTrap(const std::string &name);
-	~FlagTrap();
-	FlagTrap(const FlagTrap& other);
-	FlagTrap& operator=(const FlagTrap& other);
+	FragTrap(const std::string &name);
+	~FragTrap();
+	FragTrap(const FragTrap& other);
+	FragTrap& operator=(const FragTrap& other);
 
 	void 	highFivesGuys(void);
 };
