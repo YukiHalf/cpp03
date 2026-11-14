@@ -5,12 +5,12 @@ ScavTrap::ScavTrap(const std::string& name) : ClapTrap(name)
 	m_hit_points = 100;
 	m_energy_points = 50;
 	m_attack_damage = 20;
-	std::cout << "ScavTrap " << m_name << " came to earth" << std::endl;
+	std::cout << "ScavTrap " << m_name << " came to mars" << std::endl;
 }
 
 ScavTrap::~ScavTrap()
 {
-	std::cout << "ScavTrap " << m_name << " left earth" << std::endl;
+	std::cout << "ScavTrap " << m_name << " left mars" << std::endl;
 }
 
 
